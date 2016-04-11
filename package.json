@@ -1,0 +1,56 @@
+{
+  "name": "bussyboy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "server-dev": "NODE_ENV=development nodemon --exec \"node --harmony src/server\"",
+    "server-prod": "NODE_ENV=production node --harmony src/server",
+    "clock-dev": "NODE_ENV=development nodemon --exec \"node --harmony src/server/clock.js\"",
+    "clock-prod": "NODE_ENV=production node --harmony src/server/clock.js",
+    "worker-dev": "NODE_ENV=development nodemon --exec \"node --harmony src/server/worker.js\"",
+    "worker-prod": "NODE_ENV=production node --harmony src/server/worker.js"
+  },
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "gulp-util": "^2.2.14",
+    "shelljs": "^0.3.0"
+  },
+  "dependencies": {
+    "amqp": "^0.2.4",
+    "bluebird": "^3.3.4",
+    "co": "^4.6.0",
+    "gulp": "^3.5.6",
+    "gulp-sass": "^2.0.4",
+    "gulp-concat": "^2.2.0",
+    "gulp-minify-css": "^0.3.0",
+    "gulp-rename": "^1.2.0",
+    "jsonwebtoken": "^5.7.0",
+    "koa": "^1.2.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.2.1",
+    "koa-route": "^1.1.4",
+    "lodash": "^4.6.1",
+    "md5": "^2.1.0",
+    "moment": "^2.12.0",
+    "moment-timezone": "^0.5.3",
+    "mongoose": "^4.4.10",
+    "nconf": "^0.8.4",
+    "node-fetch": "^1.4.1",
+    "pushwoosh-client": "^1.2.1"
+  },
+  "engines": {
+    "node": "5.9.1",
+    "npm": "3.7.3"
+  },
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": []
+}

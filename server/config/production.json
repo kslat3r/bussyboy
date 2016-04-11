@@ -1,0 +1,16 @@
+{
+  "dbUrl": null,
+
+  "amqpUrl": null,
+  "amqpQueueName": "bussyboy",
+  "amqpInterval": 5000,
+
+  "pushwooshApplicationCode": null,
+  "pushwooshApiToken": null,
+
+  "md5Salt": "gew4hg-984hg094whg0iw4hg",
+
+  "jwtSecretKey": "gf4hg04hg-9w4jg-w4gjw49gh",
+  "jwtExpiresIn": 15552000,
+  "jwtIssuer": "bussyboy-api"
+}

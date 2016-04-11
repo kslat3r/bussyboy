@@ -1,0 +1,16 @@
+{
+  "dbUrl": "mongodb://heroku_stwczwqj:d9fjnud324avcfu77948gbhvgg@ds025429.mlab.com:25429/heroku_stwczwqj",
+
+  "amqpUrl": "amqp://lcfghnsx:M1KYsIIQNAdc__2NhWK6YLk2gY5jOlP1@fox.rmq.cloudamqp.com/lcfghnsx",
+  "amqpQueueName": "bussyboy",
+  "amqpInterval": 1000,
+
+  "pushwooshApplicationCode": "83205-A7432",
+  "pushwooshApiToken": "jbfRyAcQMi8Bc5gV05iWsD7FsSDK1KYmvqsFVkvE1jmflN5lOAzzcrKoOSjPArjKjDDxw2IxihQ4dXWxeYnp",
+
+  "md5Salt": "gew4hg-984hg094whg0iw4hg",
+
+  "jwtSecretKey": "gf4hg04hg-9w4jg-w4gjw49gh",
+  "jwtExpiresIn": 15552000,
+  "jwtIssuer": "bussyboy-api"
+}
